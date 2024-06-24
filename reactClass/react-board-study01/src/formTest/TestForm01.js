@@ -60,7 +60,8 @@ export default function TestForm01(){
             console.log(errors)
             return false;
         } //이중에 한개라도 ture면 반환한다.
-    
+        //Axios를 애용해 폼데이터를 백엔드 서버에 전송
+        
 
         console.log("폼 전송 완료");
     }
@@ -76,7 +77,7 @@ export default function TestForm01(){
             </div>
             <div>
                생일: <input type="date" name="birth"className='form-control'  onChange={handleChange}/>
-               {errors.birth}
+               {errors.birth && <spna className="text-danger">{errors.birth}</spna>}
             </div>
             <div>
                 학년:
