@@ -1,4 +1,4 @@
-export default function BoardUpdateFromPage(){
+export default function BoardUpdateFromPageOld(){
 
     return(
 			<div class="row my-5" id="global-content">
@@ -9,7 +9,7 @@ export default function BoardUpdateFromPage(){
 					</form>
 					<div class="row text-center">
 						<div class="col">
-							<h2 class="fs-3 fw-bold">게시 글 상세보기</h2>
+							<h2 class="fs-3 fw-bold">게시 글 수정하기</h2>
 						</div>
 					</div> 
 					<div class="row my-3">

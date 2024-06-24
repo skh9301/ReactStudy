@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import BoardListPage from './pages/BoardListPage';
 import BoardDetailPage from './pages/BoardDetailPage';
 import BoardWriteFormPage from './pages/BoardWriteFormPage';
-import BoardUpdateFromPage from './pages/BoardUpdateFromPage';
+import BoardUpdateFromPage from './pages/BoardUpdateFormPage';
 import NotFoundPage from './pages/NotFoundPage';
 import TestForm01 from './formTest/TestForm01';
 
